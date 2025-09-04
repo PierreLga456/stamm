@@ -1,0 +1,6 @@
+
+site_name: STAMM
+theme:
+  name: material
+nav:
+  - Accueil: index.md

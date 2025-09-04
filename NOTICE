@@ -1,0 +1,8 @@
+
+This project includes hardware, software, and documentation components with distinct scopes:
+
+- Hardware assembly plans (if any) licensed under CERN OHL-S v2.
+- Software licensed under AGPL-3.0-or-later.
+- Documentation licensed under CC BY 4.0.
+
+Certain internal details are intentionally excluded from this public repository.

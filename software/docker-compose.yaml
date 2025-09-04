@@ -1,0 +1,16 @@
+
+# Exemple minimal de stack Docker pour STAMM (à adapter)
+
+services:
+  mediawiki:
+    image: lscr.io/linuxserver/mediawiki:latest
+    container_name: stamm_mediawiki
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+  minidlna:
+    image: vladgh/minidlna:latest
+    container_name: stamm_minidlna
+    network_mode: host
+    restart: unless-stopped
