@@ -1,7 +1,10 @@
 
 # Documentation STAMM — Serveur Terminal Autonome Messagerie Mobile
 
-STAMM est un kit de communication et de services mobiles décentralisés en situation dégradée.
+![Bannière](assets/paysage-stamm.jpg){ style="border-radius:12px" }
+
+> **STAMM** est un kit de communication et de services mobiles décentralisés pour les situations dégradées.
+> SIG, wiki, médiathèque, relais radio
 
 ## Objectifs
 - Fournir un serveur/terminal autonome en zone blanche
