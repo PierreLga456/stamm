@@ -1,6 +1,54 @@
-
 site_name: STAMM
+site_description: Serveur Terminal Autonome Messagerie Mobile — kit de résilience numérique
+site_url: https://pierrelga456.github.io/stamm/
+repo_url: https://github.com/PierreLga456/stamm
+repo_name: PierreLga456/stamm
+edit_uri: ""   # pas de lien "Edit this page" vers GitHub
+
 theme:
   name: material
+  language: fr
+  logo: assets/paysage-stamm.jpg      # (tu peux mettre la même image que la bannière)
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+  palette:
+    # Clair
+    - scheme: default
+      primary: blue
+      accent: blue
+    # Sombre
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Mode sombre
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+
 nav:
   - Accueil: index.md
+  - Logiciels (base): software.md
+  - Matériel (ouvert): hardware.md
+  - Licences: licences.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/PierreLga456/stamm
+    - icon: material/web
+      link: https://www.pierre-lannes.fr/cyberdeck-stamm-resilience-numerique/
