@@ -11,4 +11,4 @@ STAMM est un kit de communication et de services mobiles décentralisés en situ
 Cette documentation couvre les aspects ouverts du projet.
 Les schémas détaillés d’assemblage et certaines optimisations ne sont pas inclus.
 
-Test
+Test 2
