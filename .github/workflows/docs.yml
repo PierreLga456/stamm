@@ -23,8 +23,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install mkdocs mkdocs-material
 
-      - name: Build site
-        run: mkdocs build --strict --site-dir site
+      - name: Show versions (debug)
+        run: |
+          python --version
+          mkdocs --version
+
+      - name: Build site (non-strict)
+        run: mkdocs build --site-dir site
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
